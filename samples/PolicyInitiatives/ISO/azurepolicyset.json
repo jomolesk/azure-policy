@@ -1,69 +1,16 @@
 {
     "properties": {
-        "displayName": "Billing Tags Policy Initiative",
-        "description": "Specify cost Center tag and product name tag",
-        "parameters": {
-            "costCenterValue": {
-                "type": "String",
-                "metadata": {
-                    "displayName": "required value for Cost Center tag"
-                }
-            },
-            "productNameValue": {
-                "type": "String",
-                "metadata": {
-                    "displayName": "required value for product Name tag"
-                }
-            }
-        },
+        "displayName": "Blueprint test initiative Jan 17",
+        "description": "for test",
+        "parameters": {},
         "policyDefinitions": [
             {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
-                "parameters": {
-                    "tagName": {
-                        "value": "costCenter"
-                    },
-                    "tagValue": {
-                        "value": "[parameters('costCenterValue')]"
-                    }
-                }
-            },
-            {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
-                "parameters": {
-                    "tagName": {
-                        "value": "costCenter"
-                    },
-                    "tagValue": {
-                        "value": "[parameters('costCenterValue')]"
-                    }
-                }
-            },
-            {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
-                "parameters": {
-                    "tagName": {
-                        "value": "productName"
-                    },
-                    "tagValue": {
-                        "value": "[parameters('productNameValue')]"
-                    }
-                }
-            },
-            {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
-                "parameters": {
-                    "tagName": {
-                        "value": "productName"
-                    },
-                    "tagValue": {
-                        "value": "[parameters('productNameValue')]"
-                    }
-                }
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7f89b1eb-583c-429a-8828-af049802c1d9",
+                "parameters": {}
             }
         ]
     },
-    "id": "/subscriptions/a48a924d-6007-4c39-a3c0-5466b9012f42/providers/Microsoft.Authorization/policySetDefinitions/billingTagsPolicy",
+    "id": "/subscriptions/48edaf02-fee7-4ad6-b341-70f63ed87480/providers/Microsoft.Authorization/policySetDefinitions/blueprintJan17",
     "type": "Microsoft.Authorization/policySetDefinitions",
-    "name": "billingTagsPolicy"
+    "name": "blueprintJan17"
 }
