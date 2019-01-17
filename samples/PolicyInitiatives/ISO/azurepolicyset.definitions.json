@@ -2,8 +2,18 @@
 	{
 		"policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7c5a74bf-ae94-4a74-8fcf-644d1e0e6e6f",
 		"parameters": {}
-  }.
+	},
 	{
-	"policyDefinitionID": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
-	"parameters": {}
+		"policyDefinitionID": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
+		"parameters": {
+			"requiredRetentionDays": {
+				"type": "String",
+				"defaultValue": "365",
+				"metadata": {
+					"displayName": "Required retention (days)",
+					"description": "The required diagnostic logs retention in days"
+				}
+			}
+		}
+	}
 ]
