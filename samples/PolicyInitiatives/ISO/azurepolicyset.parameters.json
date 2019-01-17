@@ -1,5 +1,5 @@
 {
-	"requiredRetentionDays": {
+	"requiredRetentionDaysValue": {
 		"type": "String",
 		"defaultValue": "365",
 		"metadata": {
