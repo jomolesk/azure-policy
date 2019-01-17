@@ -4,10 +4,13 @@
 		"parameters": {}
 	},
 	{
-		"policyDefinitionID": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
+		"policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
 		"parameters": {
-			"requiredRetentionDays": {
-				"value": "[parameters('requiredRetentionDaysValue')]"
+			"tagName": {
+				"value": "costCenter"
+			},
+			"tagValue": {
+				"value": "[parameters('costCenterValue')]"
 			}
 		}
 	}
