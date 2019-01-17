@@ -7,12 +7,7 @@
 		"policyDefinitionID": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
 		"parameters": {
 			"requiredRetentionDays": {
-				"type": "String",
-				"defaultValue": "365",
-				"metadata": {
-					"displayName": "Required retention (days)",
-					"description": "The required diagnostic logs retention in days"
-				}
+				"value": "[parameters('requiredRetentionDays')]"
 			}
 		}
 	}

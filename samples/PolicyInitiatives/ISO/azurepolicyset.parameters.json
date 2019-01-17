@@ -1,14 +1,10 @@
 {
-	"costCenterValue": {
+	"requiredRetentionDays": {
 		"type": "String",
+		"defaultValue": "365",
 		"metadata": {
-			"displayName": "required value for Cost Center tag"
-		}
-	},
-	"productNameValue": {
-		"type": "String",
-		"metadata": {
-			"displayName": "required value for product Name tag"
+			"displayName": "Required retention (days)",
+			"description": "The required diagnostic logs retention in days"
 		}
 	}
 }
